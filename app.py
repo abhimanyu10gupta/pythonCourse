@@ -1,5 +1,12 @@
-num1 = input("Enter a number: ")
-num2 = input("Enter a number: ")
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
 
-result = float(num1) + float(num2)
-print(result)
+print(friends)
+
+print(friends[2])
+print(friends[-1])
+print(friends[-2])
+print(friends[1:4])
+
+friends[1] = "Noah"
+
+print(friends)
