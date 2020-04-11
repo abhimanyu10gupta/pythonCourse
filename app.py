@@ -1,5 +1,8 @@
-num1 = input("Enter a number: ")
-num2 = input("Enter a number: ")
 
-result = float(num1) + float(num2)
-print(result)
+def say_hi(name, age):
+    print("Hello " + name + " you are " + age)
+
+print("top")
+say_hi("Steve", "50")
+say_hi("Jobs", "50")
+print("bottom")
