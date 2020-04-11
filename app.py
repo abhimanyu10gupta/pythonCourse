@@ -1,5 +1,9 @@
-num1 = input("Enter a number: ")
-num2 = input("Enter a number: ")
 
-result = float(num1) + float(num2)
-print(result)
+#Tuples are immutable. CANNOT MODIFy, ADD, REMOVE ELEMENTS
+
+coordinates = (4, 5)
+
+print(coordinates[0])
+
+#Tuples vs Lists
+#one is not modifiable and one is
