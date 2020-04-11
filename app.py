@@ -1,15 +1,18 @@
-num1 = float(input("Enter a number: "))
-op = input("Enter an operator: ")
-num2 = float(input("Enter a number: "))
+monthConversions = {
+    "Jan" : "January",
+    "Feb" : "February",
+    "Mar" : "March",
+    "Apr" : "April",
+    "May" : "May",
+    "Jun" : "June",
+    "Jul" : "July",
+    "Aug" : "August",
+    "Sep" : "September",
+    "Oct" : "October",
+    "Nov" : "November",
+    "Dec" : "December",
+}
 
-if op == "+":
-    print(num1+num2)
-elif op == "/":
-    print(num1/num2)
-elif op == "*":
-    print(num1 * num2)
-elif op == "-":
-    print(num1 - num2)
-else:
-    print("Invalid Operator")
-
+print(monthConversions["Nov"])
+print(monthConversions.get("Dec"))
+print(monthConversions.get("kjdf", "Not a valid key")) # returns what you specified after comma
