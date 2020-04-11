@@ -1,5 +1,9 @@
-num1 = input("Enter a number: ")
-num2 = input("Enter a number: ")
 
-result = float(num1) + float(num2)
+def cube(num):
+    return num*num*num
+
+
+result = cube(4)
+
+print(cube(3))
 print(result)
