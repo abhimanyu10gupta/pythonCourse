@@ -1,3 +1,4 @@
 jim = salesman
 dwight = salesman
 pam = receptionist
+toby = human resources
