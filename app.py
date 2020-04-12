@@ -1,15 +1,13 @@
-num1 = float(input("Enter a number: "))
-op = input("Enter an operator: ")
-num2 = float(input("Enter a number: "))
+friends = ["Jim", "Karen", "Megan"]
+for friend in friends:
+    print(friend)
 
-if op == "+":
-    print(num1+num2)
-elif op == "/":
-    print(num1/num2)
-elif op == "*":
-    print(num1 * num2)
-elif op == "-":
-    print(num1 - num2)
-else:
-    print("Invalid Operator")
 
+for index in range(39):
+    print(index)
+
+for index in range(4,49):
+    print(index)
+
+for index in range(len(friends)):
+    print(index)
