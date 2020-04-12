@@ -1,15 +1,13 @@
-num1 = float(input("Enter a number: "))
-op = input("Enter an operator: ")
-num2 = float(input("Enter a number: "))
 
-if op == "+":
-    print(num1+num2)
-elif op == "/":
-    print(num1/num2)
-elif op == "*":
-    print(num1 * num2)
-elif op == "-":
-    print(num1 - num2)
-else:
-    print("Invalid Operator")
+employee_file = open("employees.txt", 'r')
 
+print(employee_file.readable())
+print(employee_file.readlines())
+print(employee_file.readline())
+
+print(employee_file.read())
+
+for employee in employee_file.readlines():
+    print(employee)
+
+employee_file.close()
